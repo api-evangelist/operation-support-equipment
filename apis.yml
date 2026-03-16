@@ -1,103 +1,40 @@
+aid: operation-support-equipment
 name: Operation Support Equipment API
-description: API for managing and accessing operation support equipment data, inventory, maintenance records, and deployment information
-image: https://example.com/images/operation-support-equipment-logo.png
-created: '2024-01-15'
-modified: '2024-01-15'
-specificationVersion: '0.18'
-url: https://api.operationsupport.example.com/apis.json
-apis:
-- name: Equipment Inventory API
-  description: Manage and query equipment inventory, including availability, location, and specifications
-  image: https://example.com/images/inventory-icon.png
-  humanURL: https://operationsupport.example.com/inventory
-  baseURL: https://api.operationsupport.example.com/v1/inventory
-  tags:
-  - equipment
-  - inventory
-  - assets
-  - tracking
-  properties:
-  - type: Documentation
-    url: https://docs.operationsupport.example.com/inventory
-  - type: OpenAPI
-    url: https://api.operationsupport.example.com/v1/inventory/openapi.json
-  - type: Swagger
-    url: https://api.operationsupport.example.com/v1/inventory/swagger.yaml
-  contact:
-  - FN: Inventory Support Team
-    email: inventory-support@operationsupport.example.com
-    url: https://operationsupport.example.com/support
-- name: Maintenance Management API
-  description: Track maintenance schedules, service records, and equipment condition monitoring
-  image: https://example.com/images/maintenance-icon.png
-  humanURL: https://operationsupport.example.com/maintenance
-  baseURL: https://api.operationsupport.example.com/v1/maintenance
-  tags:
-  - maintenance
-  - service
-  - repairs
-  - scheduling
-  properties:
-  - type: Documentation
-    url: https://docs.operationsupport.example.com/maintenance
-  - type: OpenAPI
-    url: https://api.operationsupport.example.com/v1/maintenance/openapi.json
-  - type: Postman Collection
-    url: https://api.operationsupport.example.com/v1/maintenance/postman-collection.json
-  contact:
-  - FN: Maintenance Support Team
-    email: maintenance-support@operationsupport.example.com
-- name: Deployment Logistics API
-  description: Manage equipment deployment, transportation, and field operations logistics
-  image: https://example.com/images/deployment-icon.png
-  humanURL: https://operationsupport.example.com/deployment
-  baseURL: https://api.operationsupport.example.com/v1/deployment
-  tags:
-  - deployment
-  - logistics
-  - transportation
-  - operations
-  properties:
-  - type: Documentation
-    url: https://docs.operationsupport.example.com/deployment
-  - type: OpenAPI
-    url: https://api.operationsupport.example.com/v1/deployment/openapi.json
-  - type: API Blueprint
-    url: https://api.operationsupport.example.com/v1/deployment/blueprint.apib
-  contact:
-  - FN: Deployment Operations Team
-    email: deployment-ops@operationsupport.example.com
-- name: Equipment Specifications API
-  description: Access detailed technical specifications, manuals, and configuration data for support equipment
-  image: https://example.com/images/specs-icon.png
-  humanURL: https://operationsupport.example.com/specifications
-  baseURL: https://api.operationsupport.example.com/v1/specifications
-  tags:
-  - specifications
-  - technical
-  - manuals
-  - documentation
-  properties:
-  - type: Documentation
-    url: https://docs.operationsupport.example.com/specifications
-  - type: OpenAPI
-    url: https://api.operationsupport.example.com/v1/specifications/openapi.json
-  contact:
-  - FN: Technical Documentation Team
-    email: tech-docs@operationsupport.example.com
-include:
-- name: Authentication Service
-  url: https://api.operationsupport.example.com/auth/apis.json
-- name: Reporting Services
-  url: https://api.operationsupport.example.com/reports/apis.json
-maintainers:
-- FN: Operations Support API Team
-  email: api-team@operationsupport.example.com
-  url: https://operationsupport.example.com/about
+description: >-
+  API for managing and accessing operation support equipment data, inventory,
+  maintenance records, and deployment information for operational logistics
+  and equipment lifecycle management.
+type: Index
+position: Consumer
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- operation support
-- equipment management
-- logistics
-- maintenance
-- inventory
-- deployment
+  - Operation Support
+  - Equipment Management
+  - Logistics
+  - Maintenance
+  - Inventory
+  - Deployment
+created: '2024-01-15'
+modified: '2026-03-16'
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/operation-support-equipment/refs/heads/main/apis.yml
+specificationVersion: '0.19'
+apis:
+  - aid: operation-support-equipment:operation-support-equipment
+    name: Operation Support Equipment API
+    description: >-
+      API for managing and accessing operation support equipment data, inventory,
+      maintenance records, and deployment information for operational logistics
+      and equipment lifecycle management.
+    humanURL: https://www.dla.mil/
+    tags:
+      - Operation Support
+      - Equipment Management
+      - Logistics
+    properties:
+      - type: Documentation
+        url: https://www.dla.mil/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
