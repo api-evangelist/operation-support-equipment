@@ -9,12 +9,12 @@ position: Consumer
 access: 3rd-Party
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Operation Support
+  - Deployment
   - Equipment Management
+  - Inventory
   - Logistics
   - Maintenance
-  - Inventory
-  - Deployment
+  - Operation Support
 created: '2024-01-15'
 modified: '2026-03-16'
 url: >-
@@ -29,9 +29,9 @@ apis:
       and equipment lifecycle management.
     humanURL: https://www.dla.mil/
     tags:
-      - Operation Support
       - Equipment Management
       - Logistics
+      - Operation Support
     properties:
       - type: Documentation
         url: https://www.dla.mil/
