@@ -38,3 +38,6 @@ apis:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+common:
+- type: DomainSecurity
+  url: security/operation-support-equipment-domain-security.yml
